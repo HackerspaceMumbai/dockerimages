@@ -1,5 +1,6 @@
 Docker images are becoming heavy in size as they build from the source commands. And, it contains different sources of instance which utilizes more memory on disk. And, there are many ways to compress them without compromising their functionality. So, for that purpose, we must have to know how exactly the logic behind the creation of docker image.
 So, here we wrote the script that reads different images and numbered it for the optimization purpose. After choosing the particular index image we apply the process onto that image. And, then the modified Dockerfile is created. As it builds, it will remove the dependency between them as you can see in the snapshot. This technique is command chaining. The original size and the optimum size differ. Also, there are many ways to do it. Will probably add those soon and made the proper tool which will run before creating Dockerfile. So, it will be efficient and ease.
 Also, the reverse engineering process applied so we can achieve Dockerfile from its respective image.
+Here is link for output, https://dockerinfo.files.wordpress.com/2015/06/unnamed.png
 That will help us to track for further processing. 
 Thank you.
